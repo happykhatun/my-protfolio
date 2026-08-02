@@ -4,15 +4,18 @@ import { FiArrowUp, FiGithub, FiLinkedin, FiMail, FiMenu } from 'react-icons/fi'
 import { useState } from 'react';
 import resume from "./assets/Mst Happy Khatun Resume.pdf";
 
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Services from './components/Services';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Certifications from './components/Certifications';
-import Contact from './components/Contact';
+
+import Hero from './Components/Hero';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Services from './Components/services';
+import Projects from './Components/Projects';
+import Experience from './Components/Experience';
+import Education from './Components/Education';
+import Certifications from './Components/Certifications';
+import Contact from './Components/Contact';
+
+
 
 const navItems = [
   { label: 'Home', href: '#home' },
@@ -75,15 +78,15 @@ function App() {
         </header>
 
         <main id="home">
-          <Hero />
-          <About />
-          <Skills />
-          <Services />
-          <Projects />
-          <Experience />
-          <Education />
-          <Certifications />
-          <Contact />
+         <Hero/>
+         <About/>
+         <Skills/>
+         <Services/>
+         <Projects/>
+         <Experience/>
+         <Education/>
+         <Certifications/>
+         <Contact/>
         </main>
 
         <footer className="border-t border-white/10 bg-slate-950/80">
