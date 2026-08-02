@@ -8,7 +8,7 @@ import resume from "./assets/Mst Happy Khatun Resume.pdf";
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Skills from './Components/Skills';
-import Services from './Components/services';
+import Services from './Components/Services';
 import Projects from './Components/Projects';
 import Experience from './Components/Experience';
 import Education from './Components/Education';
